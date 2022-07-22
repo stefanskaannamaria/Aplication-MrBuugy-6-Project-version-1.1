@@ -1,0 +1,196 @@
+{
+  "id": "d0797d82-e580-4b81-a750-9c1889e02b71",
+  "version": "2.0",
+  "name": "Add phone to a basket",
+  "url": "http:\\\\www.x-kom.pl",
+  "tests": [{
+    "id": "058ff077-3e86-4e1d-9e79-3d169eac7bb0",
+    "name": "Samsung GalaxyS20",
+    "commands": [{
+      "id": "4d32897d-2053-4598-87ff-4b7d98c951ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.suk8z4-0",
+      "targets": [
+        ["css=.suk8z4-0", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91e8cd2d-5f63-4218-b039-ea11cb539788",
+      "comment": "",
+      "command": "click",
+      "target": "css=.suk8z4-0",
+      "targets": [
+        ["css=.suk8z4-0", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35430c05-7485-4895-be5f-630eaa4f5508",
+      "comment": "",
+      "command": "type",
+      "target": "css=.suk8z4-0",
+      "targets": [
+        ["css=.suk8z4-0", "css:finder"],
+        ["xpath=//input[@value='Samsung Galaxy S20 FE 5G Fan edition 8/256 GB czerwony']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Samsung Galaxy S20 FE 5G Fan edition 8/256 GB czerwony"
+    }, {
+      "id": "37f5ca88-dea3-45d0-8940-95f60cf3b5db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1p0xkzn-7",
+      "targets": [
+        ["css=.sc-1p0xkzn-7", "css:finder"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div/div/div/div/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30f04459-e181-4ad4-a96e-1cacdfe8070e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1yu46qn-8 > .sc-1tblmgq-1",
+      "targets": [
+        ["css=.sc-1yu46qn-8 > .sc-1tblmgq-1", "css:finder"],
+        ["xpath=//img[@alt='Smartfon / Telefon Samsung Galaxy S20 FE 5G Fan Edition 8/256GB Czerwony']", "xpath:img"],
+        ["xpath=//div[@id='listing-container']/div/div/div[2]/div/div/a/span/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe680cbc-361b-45b4-85aa-6504a1babf39",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39b3cb39-1832-4deb-9a55-1bd146a2134c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-1hdxfw1-1",
+      "targets": [
+        ["css=.sc-1hdxfw1-1", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/div/div/div[3]/div[2]/div[2]/div[2]/div/div[2]/div[2]/div/button/span/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ad0cf4b-f2d1-4b4e-9ae5-2111a9a57e06",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1hdxfw1-1",
+      "targets": [
+        ["css=.sc-1hdxfw1-1", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/div/div/div[3]/div[2]/div[2]/div[2]/div/div[2]/div[2]/div/button/span/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "145e4f09-eea5-4e14-8f7b-b12301ab4a0c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sc-1hdxfw1-1",
+      "targets": [
+        ["css=.sc-1hdxfw1-1", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/div/div/div[3]/div[2]/div[2]/div[2]/div/div[2]/div[2]/div/button/span/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "741a6411-ce5c-4790-b949-471befaa630e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17070f31-2420-4eae-9141-9f67e05c404b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Przejdź do koszyka",
+      "targets": [
+        ["linkText=Przejdź do koszyka", "linkText"],
+        ["css=.sc-1v4lzt5-11", "css:finder"],
+        ["xpath=//a[contains(text(),'Przejdź do koszyka')]", "xpath:link"],
+        ["xpath=//div[@id='react-portals']/div[15]/div/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/koszyk')])[2]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Przejdź do koszyka')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "40c207e2-98d3-4861-8de9-6394bec8cdb8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.x-kom.pl/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3beff903-3422-4fc0-a08c-f54bd248525c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16a27487-91b2-4ca5-9487-2daaf558018d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.suk8z4-0",
+      "targets": [
+        ["css=.suk8z4-0", "css:finder"],
+        ["xpath=//input[@value='Samsung Galaxy S20 FE 5G Fan edition 8/256 GB czerwony']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Samsung Galaxy S20 FE 5G Fan edition 8/256 GB czerwony"
+    }, {
+      "id": "627182ab-5147-4bc6-83f5-90f4d3cbd9b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1p0xkzn-3 > svg",
+      "targets": [
+        ["css=.sc-1p0xkzn-3 > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2aa82441-59c9-4d58-8d7c-e1563f9211a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1yu46qn-8 > .sc-1tblmgq-1",
+      "targets": [
+        ["css=.sc-1yu46qn-8 > .sc-1tblmgq-1", "css:finder"],
+        ["xpath=//img[@alt='Smartfon / Telefon Samsung Galaxy S20 FE 5G Fan Edition 8/256GB Czerwony']", "xpath:img"],
+        ["xpath=//div[@id='listing-container']/div/div/div[2]/div/div/a/span/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e2448c8-f7ce-4cc1-ac53-923b5ffff449",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d1c57b7d-9ee1-4d8d-9ea8-434ef93d1b94",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://www.x-kom.pl/"],
+  "plugins": []
+}

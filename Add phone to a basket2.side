@@ -1,0 +1,148 @@
+{
+  "id": "40ac5777-6cfc-462d-80be-dad2c875f060",
+  "version": "2.0",
+  "name": "Add phone to a basket",
+  "url": "https://www.x-kom.pl/",
+  "tests": [{
+    "id": "8a3399be-f4fc-46ef-8558-74cdf00605b3",
+    "name": "Iphone SE 3 Gen",
+    "commands": [{
+      "id": "62717385-1236-4dc3-8920-edaa93b0d3b8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.x-kom.pl/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59840b6d-1670-4608-a95e-5cff84913273",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4d80b2a-f268-4e4d-920d-14fdf0abcb34",
+      "comment": "",
+      "command": "click",
+      "target": "css=.suk8z4-0",
+      "targets": [
+        ["css=.suk8z4-0", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "893e85c1-ac6e-4929-92df-79c70c633821",
+      "comment": "",
+      "command": "type",
+      "target": "css=.suk8z4-0",
+      "targets": [
+        ["css=.suk8z4-0", "css:finder"],
+        ["xpath=//input[@value='Iphone SE 3 gen czerwony']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/header/div/div[3]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Iphone SE 3 gen czerwony"
+    }, {
+      "id": "f2075cb7-4077-4610-9965-195ad3a3919c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1p0xkzn-3 path",
+      "targets": [
+        ["css=.sc-1p0xkzn-3 path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c95b4ee9-b30e-4241-84a4-d1e24308db54",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-162ysh3-1:nth-child(1) .sc-1yu46qn-11 .sc-1tblmgq-1",
+      "targets": [
+        ["css=.sc-162ysh3-1:nth-child(1) .sc-1yu46qn-11 .sc-1tblmgq-1", "css:finder"],
+        ["xpath=//img[@alt='Smartfon / Telefon Apple iPhone SE 3gen 256GB (PRODUCT)RED']", "xpath:img"],
+        ["xpath=//div[@id='listing-container']/div/div/div[2]/div/div/a/span/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db84224d-52a5-4524-884d-9aad1a69e0a7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19a8130f-e302-4703-897e-f88f22791cb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1hdxfw1-1",
+      "targets": [
+        ["css=.sc-1hdxfw1-1", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/div/div/div[3]/div[2]/div[2]/div[2]/div/div[2]/div[2]/div/button/span/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4de6c03-7e8a-4948-b585-7eb5e41edbdb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-1hdxfw1-1",
+      "targets": [
+        ["css=.sc-1hdxfw1-1", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/div/div/div[3]/div[2]/div[2]/div[2]/div/div[2]/div[2]/div/button/span/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "acedff08-67d8-410e-bfb6-3af5e07a3c83",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sc-1hdxfw1-1",
+      "targets": [
+        ["css=.sc-1hdxfw1-1", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/div/div/div[3]/div[2]/div[2]/div[2]/div/div[2]/div[2]/div/button/span/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b31d64d1-9c6c-40c1-9af8-1cd7717a242c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9e2805d-c804-416e-b489-55ebc0346264",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Przejdź do koszyka",
+      "targets": [
+        ["linkText=Przejdź do koszyka", "linkText"],
+        ["css=.sc-1v4lzt5-11", "css:finder"],
+        ["xpath=(//a[contains(text(),'Przejdź do koszyka')])[2]", "xpath:link"],
+        ["xpath=//div[@id='react-portals']/div[15]/div/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/koszyk')])[4]", "xpath:href"],
+        ["xpath=//div[15]/div/div/div/div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa0c0de9-4932-48af-817a-7978688e75b5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d02891b5-6ac2-4c06-ab96-a74aa6e48276",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8a3399be-f4fc-46ef-8558-74cdf00605b3"]
+  }],
+  "urls": ["https://www.x-kom.pl/"],
+  "plugins": []
+}

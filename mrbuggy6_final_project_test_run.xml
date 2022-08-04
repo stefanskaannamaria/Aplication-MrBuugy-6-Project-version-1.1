@@ -1,0 +1,1833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<run>
+	<id>R1</id>
+	<name>MrBuggy6-Final Project Test Run</name>
+	<description></description>
+	<config></config>
+	<createdon>2022-07-22T21:18:51Z</createdon>
+		<completed>false</completed>
+		<milestone></milestone>
+	<stats>
+										<passed>
+			<percent>72</percent>
+			<count>23</count>
+		</passed>
+											<blocked>
+			<percent>0</percent>
+			<count>0</count>
+		</blocked>
+											<untested>
+			<percent>0</percent>
+			<count>0</count>
+		</untested>
+											<retest>
+			<percent>0</percent>
+			<count>0</count>
+		</retest>
+											<failed>
+			<percent>28</percent>
+			<count>9</count>
+		</failed>
+																																																				</stats>	<sections>
+		<section>
+		<name>Creating password of user</name>
+		<description></description>
+						<tests>
+																																																									<test>
+				<id>T1</id>
+				<title>Creating password which is currently in using</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>MPK-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy 6 application
+2.User fills in ID and password fields
+3.User clicks Sign in button.
+4.On Hello Manager 2 screen user fills in password field and confirm password using popular password: 123456789
+5.User clicks Save button</steps>
+										<expected>1.Error message is displayed &quot;The password is aldready used&quot;
+2.No possibility go to the next screen logging in.
+3.The Save button is inactive.</expected>
+									</custom>
+												<caseid>C29</caseid>
+																<status>Passed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-22T21:25:38Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:51Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T2</id>
+				<title>Creating password with different content in fields : password and confim password</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>MPK-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy 6 application
+2.User fills in ID and password fields
+3.User clicks Sign in button.
+4.On Hello Manager 2 screen user fills in password field using password rules.
+5.User fills in confirm password field using different password than earlier steps.
+6.User clicks Save button
+
+</steps>
+										<expected>1.Error message is displayed &quot;The repeated password is different from the given password&quot;.
+2.No possibility go to the next screen logging in.
+3.The Save button is inactive.
+</expected>
+									</custom>
+												<caseid>C35</caseid>
+																<status>Passed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-22T21:26:29Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:51Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+								<sections>
+		<section>
+		<name>Password rules</name>
+		<description></description>
+						<tests>
+																																																									<test>
+				<id>T6</id>
+				<title>Creating password according with password rules</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>MPK-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy 6 application
+2.User fills in ID and password fields
+3.User clicks Sign in button.
+4.On Hello Manager 2 screen user fills in password field using password according with password rules.
+5.User fills in confirm password field using data from password field
+6.User clicks Save button
+</steps>
+										<expected>1.Error message is not displayed.
+2.User goes to the next screen logging in.</expected>
+									</custom>
+												<caseid>C3</caseid>
+																<status>Passed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-22T21:26:56Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T7</id>
+				<title>Creating password - the number of the characters in password fields</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																<estimate></estimate>
+																								<references>MPK-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.
+
+
+</preconds>
+										<steps>1.User opens MrBuggy 6 application
+2.User fills in ID and password fields
+3.User clicks Sign in button.
+4.On Hello Manager 2 screen user fills in password field using the max number of characters.
+5.User fills in confirm password field using the max number of characters.
+
+</steps>
+										<expected>The max number of characters in  password and confirm password is the same.</expected>
+									</custom>
+												<caseid>C25</caseid>
+																<status>Failed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																														<defects>MPK-4</defects>
+																<changes>
+															<change>
+						<createdon>2022-07-22T21:29:44Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Failed</status>
+																								<assignedto>Anna Stefańska</assignedto>
+																		<comment>The password field is to enter 20 characters, in the confirmed password field you can enter 68 characters. </comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects>MPK-4</defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+		<section>
+		<name>Creating password with empty field</name>
+		<description></description>
+						<tests>
+																																																									<test>
+				<id>T8</id>
+				<title>Creating password with empty password field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>MPK-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy 6 application
+2.User fills in ID and password fields
+3.User clicks Sign in button.
+4.On Hello Manager 2 screen user does not fill in password field.
+5.User fills in confirm password field according with password rules.
+6.User clicks Save button</steps>
+										<expected>1.Error message is displayed: &quot;The field is required&quot;.
+2.No possibility go to the next screen logging in.
+3.The Save button is inactive.
+
+
+</expected>
+									</custom>
+												<caseid>C5</caseid>
+																<status>Passed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-22T21:31:25Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T9</id>
+				<title>Creating password with empty confirm password field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>MPK-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy 6 application
+2.User fills in ID and password fields
+3.User clicks Sign in button.
+4.On Hello Manager 2 screen user fills in password field according with password rules.
+5.User does not fill in confirm password field.
+6.User clicks Save button
+</steps>
+										<expected>1.Error message is displayed: &quot;The field is required&quot;.
+2.No possibility go to the next screen logging in.
+3.The Save button is inactive.</expected>
+									</custom>
+												<caseid>C6</caseid>
+																<status>Passed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-22T21:31:28Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T10</id>
+				<title>Creating password with empy password field and empty confirm password field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>MPK-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy 6 application
+2.User fills in ID and password fields
+3.User clicks Sign in button.
+4.On Hello Manager 2 screen user does not fill in password field.
+5.User does not fill in confirm password field.
+6.User clicks Save button</steps>
+										<expected>1.Error message is displayed: &quot;The field is required&quot;.
+2.No possibility go to the next screen logging in.
+3.The Save button is inactive.</expected>
+									</custom>
+												<caseid>C27</caseid>
+																<status>Passed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-22T21:31:32Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+		<section>
+		<name>Creating password different than password rules</name>
+		<description></description>
+						<tests>
+																																																									<test>
+				<id>T28</id>
+				<title>Creating password without special character</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>MPK-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy 6 application
+2.User fills in ID and password fields
+3.User clicks Sign in button.
+4.On Hello Manager 2 screen user fills in password field using password without special character.
+5.User fills in confirm password field using data from password field
+6.User clicks Save button</steps>
+										<expected>1.Error message is displayed: &quot;The password is incorrect&quot;.
+2.No possibility go to the next screen logging in.
+3.The Save button is inactive.</expected>
+									</custom>
+												<caseid>C30</caseid>
+																<status>Failed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																														<defects>MPK-3</defects>
+																<changes>
+															<change>
+						<createdon>2022-07-22T22:23:28Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment>User can create password not using special character and correctly save it.Error message is not displayed.</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects>MPK-3</defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T29</id>
+				<title>Creating password without number</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>MPK-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy 6 application
+2.User fills in ID and password fields
+3.User clicks Sign in button.
+4.On Hello Manager 2 screen user fills in password field using password without number
+5.User fills in confirm password field using data from password field
+6.User clicks Save button
+</steps>
+										<expected>1.Error message is displayed: &quot;The password is incorrect&quot;.
+2.No possibility go to the next screen logging in.
+3.The Save button is inactive.</expected>
+									</custom>
+												<caseid>C31</caseid>
+																<status>Failed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																														<defects>MPK-3</defects>
+																<changes>
+															<change>
+						<createdon>2022-07-22T22:24:53Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment>User can create password not using number and correctly save it.Error message is not displayed.</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects>MPK-3</defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T30</id>
+				<title>Creating password using seven characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>MPK-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy 6 application
+2.User fills in ID and password fields
+3.User clicks Sign in button.
+4.On Hello Manager 2 screen user fills in password field using seven characters.
+5.User fills in confirm password field using data from password field
+6.User clicks Save button</steps>
+										<expected>1.Error message is displayed: &quot;The password is incorrect&quot;.
+2.No possibility go to the next screen logging in.
+3.The Save button is inactive.</expected>
+									</custom>
+												<caseid>C32</caseid>
+																<status>Failed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																														<defects>MPK-12</defects>
+																<changes>
+															<change>
+						<createdon>2022-07-24T10:14:47Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment>User can create password using only seven characters and correctly save it .</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects>MPK-12</defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T31</id>
+				<title>Creating password using twenty one characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>MPK-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy 6 application
+2.User fills in ID and password fields
+3.User clicks Sign in button.
+4.On Hello Manager 2 screen user fills in password field using twenty one characters.
+5.User fills in confirm password field using data from password field.
+6.User clicks Save button.
+
+</steps>
+										<expected>No possibility enter 21 characters in the password field, the field accepts up to 20 characters</expected>
+									</custom>
+												<caseid>C33</caseid>
+																<status>Passed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-22T22:26:33Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T32</id>
+				<title>Creating password using ten characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>MPK-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.
+
+
+</preconds>
+										<steps>1.User opens MrBuggy 6 application
+2.User fills in ID and password fields
+3.User clicks Sign in button.
+4.On Hello Manager 2 screen user fills in password field using ten characters and password rules.
+5.User fills in confirm password field using data from password field
+6.User clicks Save button</steps>
+										<expected>1.Error message is not displayed.
+2.User goes to the next screen logging in.
+3.The Save button is sctive.
+</expected>
+									</custom>
+												<caseid>C34</caseid>
+																<status>Passed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-22T21:36:41Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+</sections>
+			</section>
+		<section>
+		<name>Logging in application</name>
+		<description></description>
+						<tests>
+																																																									<test>
+				<id>T3</id>
+				<title>Logging in application with valid username and valid password</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>MPK-1</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy6 application.
+2.User fills in Identifier and Password fields
+3.User clicks Sign in button.
+4.User fills in Password and Confirm password fields on Hello Manager2 screen.
+5.User clicks Save button.
+5.User fills in valid Username (initial username:manager 2) and vallid Password on Login screen.
+7.User clicks Login button</steps>
+										<expected>1.Error message is not displayed.
+2.The user is correctly logged in.
+3.User sees dashboard.</expected>
+									</custom>
+												<caseid>C18</caseid>
+																<status>Passed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-22T21:33:14Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T4</id>
+				<title>Logging in to the system  as Manager with Admin &apos;s passsword</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>MPK-1</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy6 application.
+2.User fills in Identifier and Password fields
+3.User clicks Sign in button.
+4.User fills in Password and Confirm password fields on Hello Manager2 screen.
+5.User clicks Save button.
+5.User fills in valid Username (initial username:manager 2)
+6.User fills in field Password: admin
+7.User clicks Login button
+</steps>
+										<expected>1.Error message is displayed: &quot;Incorrect login and/or password&quot;
+2.The user is not logged in.
+3.User does not see dashboard.</expected>
+									</custom>
+												<caseid>C21</caseid>
+																<status>Passed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-22T21:34:30Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T5</id>
+				<title>Logging in to the system  as Admin  with Manager &apos;s passsword</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>MPK-1</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy6 application.
+2.User fills in Identifier and Password fields
+3.User clicks Sign in button.
+4.User fills in Password and Confirm password fields on Hello Manager2 screen.
+5.User clicks Save button.
+5.User fills in valid Username: admin
+6.User fills in field Password using manager&apos;s password
+7.User clicks Login button</steps>
+										<expected>1.Error message is displayed: &quot;Incorrect login and/or password&quot;
+2.The user is not logged in.
+3.User does not see dashboard.</expected>
+									</custom>
+												<caseid>C22</caseid>
+																<status>Passed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-22T21:35:21Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+								<sections>
+		<section>
+		<name>Logging in application with empty field</name>
+		<description></description>
+						<tests>
+																																																									<test>
+				<id>T11</id>
+				<title>Logging in application with empty username field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>MPK-1</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy6 application.
+2.User fills in Identifier and Password fields
+3.User clicks Sign in button.
+4.User fills in Password and Confirm password fields on Hello Manager2 screen.
+5.User clicks Save button.
+5.User does not fill in Username field
+6.User fills in field Password using valid password
+7.User clicks Login button
+</steps>
+										<expected>1.Error message is displayed &quot;The field is required&quot;. Additionally on screen is displayed error message &quot;Incorrect login and/or password&quot;
+2.The user is not logged in.
+3.User does not see dashboard.
+</expected>
+									</custom>
+												<caseid>C19</caseid>
+																<status>Passed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-22T21:38:02Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T12</id>
+				<title>Logging in application with empty password field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>MPK-1</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy6 application.
+2.User fills in Identifier and Password fields
+3.User clicks Sign in button.
+4.User fills in Password and Confirm password fields on Hello Manager2 screen.
+5.User clicks Save button.
+5.User fills in Username field using valid username
+6.User does not fill in password field
+7.User clicks Login button</steps>
+										<expected>1.Error message is displayed &quot;The field is required&quot;. Additionally on screen is displayed error message &quot;Incorrect login and/or password&quot;
+2.The user is not logged in.
+3.User does not see dashboard.</expected>
+									</custom>
+												<caseid>C20</caseid>
+																<status>Passed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-22T21:38:06Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T13</id>
+				<title>Logging in application  with empty username field and empty password field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>MPK-1</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy6 application.
+2.User fills in Identifier and Password fields
+3.User clicks Sign in button.
+4.User fills in Password and Confirm password fields on Hello Manager2 screen.
+5.User clicks Save button.
+5.User does not fill in Username field
+6.User  does not fill in password field
+7.User clicks Login button
+</steps>
+										<expected>1.Error message is displayed &quot;The field is required&quot;. Additionally on screen is displayed error message &quot;Incorrect login and/or password&quot;
+2.The user is not logged in.
+3.User does not see dashboard.</expected>
+									</custom>
+												<caseid>C28</caseid>
+																<status>Passed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-22T21:38:10Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+		<section>
+		<name>Login in application with incorrect data</name>
+		<description></description>
+						<tests>
+																																																									<test>
+				<id>T26</id>
+				<title>Logging in application with incorrect username</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>MPK-1</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy6 application.
+2.User fills in Identifier and Password fields
+3.User clicks Sign in button.
+4.User fills in Password and Confirm password fields on Hello Manager2 screen.
+5.User clicks Save button.
+5.User fills in Username field using incorrect username
+6.User fills in password field using valid password
+7.User clicks Login button</steps>
+										<expected>
+1.Error message is displayed &quot;Incorrect login and/or password&quot;
+2.The user is not logged in.
+3.User does not see dashboard.</expected>
+									</custom>
+												<caseid>C16</caseid>
+																<status>Passed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-22T21:40:38Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T27</id>
+				<title>Logging in application with incorrect password</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>MPK-1</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy6 application.
+2.User fills in Identifier and Password fields
+3.User clicks Sign in button.
+4.User fills in Password and Confirm password fields on Hello Manager2 screen.
+5.User clicks Save button.
+5.User fills in Username field using valid username
+6.User fills in Password field using incorrect password
+7.User clicks Login button
+</steps>
+										<expected>1.Error message is displayed &quot;Incorrect login and/or password&quot;
+2.The user is not logged in.
+3.User does not see dashboard.</expected>
+									</custom>
+												<caseid>C17</caseid>
+																<status>Passed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-22T21:40:43Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+</sections>
+			</section>
+		<section>
+		<name>Dashboard</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Editing profile of user</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Editing profile of user with special characters</name>
+		<description></description>
+						<tests>
+																																																									<test>
+				<id>T14</id>
+				<title>Editing Phone Number with special characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																<estimate></estimate>
+																								<references>MPK-6</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy6 application.
+2.User fills in Identifier and Password fields
+3.User clicks Sign in button.
+4.User fills in Password and Confirm password fields on Hello Manager2 screen.
+5.User clicks Save button.
+5.User fills in login form using valid username and valid password
+6.User goes to profile&apos;s tab
+7.User clicks EDIT
+8.User changes only phone number using special characters
+9.User clicks Save button</steps>
+										<expected>1.The update phone number is correctly displayed.
+2.All functions of applications are in operation according with requirements.</expected>
+									</custom>
+												<caseid>C7</caseid>
+																<status>Passed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-22T21:41:37Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T15</id>
+				<title>Editing First Name  with special characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																<estimate></estimate>
+																								<references>MPK-6</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy6 application.
+2.User fills in Identifier and Password fields
+3.User clicks Sign in button.
+4.User fills in Password and Confirm password fields on Hello Manager2 screen.
+5.User clicks Save button.
+5.User fills in login form using valid username and valid password
+6.User goes to profile&apos;s tab
+7.User clicks EDIT
+8.User changes only First Name using special characters
+9.User clicks Save button
+</steps>
+										<expected>1.The update fiss is correctly displayed.
+2.All functions of applications are in operation according with requirements.</expected>
+									</custom>
+												<caseid>C8</caseid>
+																<status>Passed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-22T21:42:01Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T16</id>
+				<title>Editing Last Name with special characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																<estimate></estimate>
+																								<references>MPK-6</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy6 application.
+2.User fills in Identifier and Password fields
+3.User clicks Sign in button.
+4.User fills in Password and Confirm password fields on Hello Manager2 screen.
+5.User clicks Save button.
+5.User fills in login form using valid username and valid password
+6.User goes to profile&apos;s tab
+7.User clicks EDIT
+8.User changes only Last Name using special characters
+9.User clicks Save button</steps>
+										<expected>1.The update phone number is correctly displayed.
+2.All functions of applications are in operation according with requirements.</expected>
+									</custom>
+												<caseid>C9</caseid>
+																<status>Failed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																														<defects>MPK-9</defects>
+																<changes>
+															<change>
+						<createdon>2022-07-22T21:42:23Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment>The last name is displayed without special characters.</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects>MPK-9</defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+		<section>
+		<name>Editing profile of user - change role</name>
+		<description></description>
+						<tests>
+																																																									<test>
+				<id>T17</id>
+				<title>Editing whole profile except Role (logging out and again logging in)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references>MPK-6</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy6 application.
+2.User fills in Identifier and Password fields
+3.User clicks Sign in button.
+4.User fills in Password and Confirm password fields on Hello Manager2 screen.
+5.User clicks Save button.
+6.User fills in login form using valid username and valid password
+8.User goes to profile&apos;s tab and clicks EDIT
+9.User changes whole profile except role 
+10.User clicks Save button
+11.User logs out.</steps>
+										<expected>1.Error message is not displayed.
+2.The update data are correctly displayed.
+3.All functions of applications are in operation according with requirements.</expected>
+									</custom>
+												<caseid>C10</caseid>
+																<status>Failed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																														<defects>MPK-11</defects>
+																<changes>
+															<change>
+						<createdon>2022-07-24T09:58:07Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment>When user changes all personal details except role, clicks Save button and goes to log out. The screen is disappeared and is  displayed critical exception: Critical exception Xcwne-023023.</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects>MPK-11</defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T18</id>
+				<title>Editing profile of user -change role to admin</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>MPK-6</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy6 application.
+2.User fills in Identifier and Password fields
+3.User clicks Sign in button.
+4.User fills in Password and Confirm password fields on Hello Manager2 screen.
+5.User clicks Save button.
+6.User fills in login form using valid username and valid password
+7.User goes to profile&apos;s tab and clicks EDIT
+8.User changes role to admin 
+9.User clicks Save button
+
+</steps>
+										<expected>1.Error message is displayed:&quot; You can not change the role to Admin&quot;.
+2.The Save button is inactive.
+3.No possibbility to save a role update
+
+</expected>
+									</custom>
+												<caseid>C15</caseid>
+																<status>Passed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-22T21:53:14Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T19</id>
+				<title>Changing role to Employee- logging out and again logging in</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>MPK-6</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy6 application.
+2.User fills in Identifier and Password fields
+3.User clicks Sign in button.
+4.User fills in Password and Confirm password fields on Hello Manager2 screen.
+5.User clicks Save button.
+5.User fills in login form using valid username and valid password
+6.User goes to profile&apos;s tab and clicks EDIT
+7.User changes role to employee
+8.User clicks Save button
+9.User goes to logout and again logs in.</steps>
+										<expected>1.Error message is not displayed.
+2.The update data are correctly displayed.
+3.All functions of applications are in operation according with requirements.
+</expected>
+									</custom>
+												<caseid>C24</caseid>
+																<status>Failed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																														<defects>MPK-8</defects>
+																<changes>
+															<change>
+						<createdon>2022-07-22T21:55:16Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment>When user changes role to the “employee” , user will be automatically logged out. When trying to log in with changed role the message will appear “Authorization conflict. Please contact admin to
+get help</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects>MPK-8</defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T20</id>
+				<title>Logging out after editing profile-change role:Employee</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references>MPK-6</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy6 application.
+2.User fills in Identifier and Password fields
+3.User clicks Sign in button.
+4.User fills in Password and Confirm password fields on Hello Manager2 screen.
+5.User clicks Save button.
+5.User fills in login form using valid username and valid password.
+6.User goes to profile&apos;s tab and clicks EDIT.
+7.User changes role to employee.
+8.User clicks Save button.
+9.User goes to logout.
+</steps>
+										<expected>1.Error message is not displayed.
+2.The update data are correctly displayed.
+3.All functions of applications are in operation according with requirements.
+</expected>
+									</custom>
+												<caseid>C26</caseid>
+																<status>Failed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																														<defects>MPK-7</defects>
+																<changes>
+															<change>
+						<createdon>2022-07-22T21:57:02Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment>No possibility change of role manager to employee, after changing the role to employee and save it .The screen is disappeared and is displayed &quot;Critical exception Xcwne-023023.</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects>MPK-7</defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+		<section>
+		<name>Editing profile of user- change username and personal details</name>
+		<description></description>
+						<tests>
+																																																									<test>
+				<id>T21</id>
+				<title>Logging out after editing profile-change: phone number</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>MPK-6</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy6 application.
+2.User fills in Identifier and Password fields
+3.User clicks Sign in button.
+4.User fills in Password and Confirm password fields on Hello Manager2 screen.
+5.User clicks Save button.
+5.User fills in login form using valid username and valid password.
+6.User goes to profile&apos;s tab and clicks EDIT.
+7.User changes phone number 
+8.User clicks Save button.
+9.User goes to logout.</steps>
+										<expected>1.Error message is not displayed.
+2.The update data are correctly displayed.
+3.All functions of applications are in operation according with requirements.</expected>
+									</custom>
+												<caseid>C11</caseid>
+																<status>Passed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-22T21:59:55Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T22</id>
+				<title>Logging out after editing profile-change: email</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>MPK-6</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy6 application.
+2.User fills in Identifier and Password fields
+3.User clicks Sign in button.
+4.User fills in Password and Confirm password fields on Hello Manager2 screen.
+5.User clicks Save button.
+5.User fills in login form using valid username and valid password.
+6.User goes to profile&apos;s tab and clicks EDIT.
+7.User changes email.
+8.User clicks Save button.
+9.User goes to logout.</steps>
+										<expected>1.Error message is not displayed.
+2.The update data are correctly displayed.
+3.All functions of applications are in operation according with requirements.</expected>
+									</custom>
+												<caseid>C12</caseid>
+																<status>Passed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-22T21:59:59Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T23</id>
+				<title>Logging out after editing profile-change: personal details (first name and last name)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>MPK-6</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy6 application.
+2.User fills in Identifier and Password fields
+3.User clicks Sign in button.
+4.User fills in Password and Confirm password fields on Hello Manager2 screen.
+5.User clicks Save button.
+5.User fills in login form using valid username and valid password.
+6.User goes to profile&apos;s tab and clicks EDIT.
+7.User changes personal details (first name and last name).
+8.User clicks Save button.
+9.User goes to logout.
+</steps>
+										<expected>1.Error message is not displayed.
+2.The update data are correctly displayed.
+3.All functions of applications are in operation according with requirements.</expected>
+									</custom>
+												<caseid>C13</caseid>
+																<status>Passed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-22T22:00:03Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T25</id>
+				<title>Logging out after editing profile-change: username</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references>MPK-6</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.</preconds>
+										<steps>1.User opens MrBuggy6 application.
+2.User fills in Identifier and Password fields
+3.User clicks Sign in button.
+4.User fills in Password and Confirm password fields on Hello Manager2 screen.
+5.User clicks Save button.
+5.User fills in login form using valid username and valid password.
+6.User goes to profile&apos;s tab and clicks EDIT.
+7.User changes username.
+8.User clicks Save button.
+9.User goes to logout.</steps>
+										<expected>1.Error message is not displayed.
+2.The update data are correctly displayed.
+3.All functions of applications are in operation according with requirements.</expected>
+									</custom>
+												<caseid>C23</caseid>
+																<status>Failed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																														<defects>MPK-10</defects>
+																<changes>
+															<change>
+						<createdon>2022-07-22T22:01:00Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment>No possibility change of  Username, after changing tthe username and save it .The screen is disappeared and is displayed &quot;Critical exception Xcwne-023023.</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects>MPK-10</defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T24</id>
+				<title>Logging in on Manager 1 account with Manager 2 password</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references>MPK-6</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1.User has to open the browser http://mrbuggy.pl/
+2.User choose MrBuggy6 and download application on computer.
+3.User hast to open and extract files with MrBuggy6 Application.
+
+
+</preconds>
+										<steps>1.User opens MrBuggy6 Application and signs in as Manager 2.
+2.User logs out and change username to Manager 1 and use Manager 2 password to log in.
+3.User logs out and logs in as Manager 2 for the second time.
+4.User opens profile&apos;s tab and changes password.
+5.User clicks Save button.
+6.User logs out and tries log in using username Manager 1 and new Manager 2 password.</steps>
+										<expected>Manager 1 password is set to initial password of Manager2. If Manager 2 change the password - Manager1 will keep the previous one.</expected>
+									</custom>
+												<caseid>C14</caseid>
+																<status>Passed</status>
+																<assignedto>Anna Stefańska</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-22T22:01:55Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-22T21:18:52Z</createdon>
+																		<createdby>Anna Stefańska</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+</sections>
+			</section>
+		<section>
+		<name>Employees</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Adding new employee</name>
+		<description></description>
+									</section>
+		<section>
+		<name>Editing personal details of employee</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>Clients</name>
+		<description></description>
+									</section>
+		<section>
+		<name>Projects</name>
+		<description></description>
+									</section>
+		<section>
+		<name>Opportunities</name>
+		<description></description>
+									</section>
+		<section>
+		<name>Services</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+</sections>
+</run>

@@ -43,7 +43,7 @@ The application was dowloaded from website www.mrbugggy.pl.
 4) I executed the part of test cases and I set up the status per step (passed / failed). The bugs encountered were linked to the test cases and I established the severity for each one. 
 5) The next I configurate tools Jira and Testrail. I reported bugs in Jira. I added outcomes: test executions, screenshots and comments. 
 
-#Test Metrics for Project
+# Test Metrics for Project
 
 In the period 6.07.2022-16.07.2022 were executed 32 test cases, 9 were failed.
 
